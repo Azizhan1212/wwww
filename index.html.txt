@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwatch | Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logos/overwatch-logo.png" alt="Overwatch Logo">
+        </div>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Главная</a></li>
+                <li><a href="heroes.html">Герои</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="#about">О проекте</a></li>
+            </ul>
+        </nav>
+        <div class="auth">
+            <button class="login-btn"><i class="fas fa-user"></i> Войти</button>
+        </div>
+    </header>
+
+    <section class="hero-banner">
+        <div class="banner-content">
+            <h1>Overwatch 2</h1>
+            <p>Присоединяйтесь к битве за будущее</p>
+            <button class="cta-button">Узнать больше</button>
+        </div>
+    </section>
+
+    <section class="featured-heroes">
+        <h2>Популярные герои</h2>
+        <div class="hero-grid">
+            <div class="hero-card">
+                <img src="images/heroes/tracer.jpg" alt="Tracer">
+                <h3>Tracer</h3>
+                <p>Атакующий</p>
+            </div>
+            <div class="hero-card">
+                <img src="images/heroes/reinhardt.jpg" alt="Reinhardt">
+                <h3>Reinhardt</h3>
+                <p>Танк</p>
+            </div>
+            <div class="hero-card">
+                <img src="images/heroes/mercy.jpg" alt="Mercy">
+                <h3>Mercy</h3>
+                <p>Поддержка</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Overwatch</h3>
+                <p>Официальный фан-сайт</p>
+            </div>
+            <div class="footer-section">
+                <h3>Ссылки</h3>
+                <ul>
+                    <li><a href="#">Blizzard Entertainment</a></li>
+                    <li><a href="#">Официальный сайт</a></li>
+                    <li><a href="#">Форум</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>info@overwatch-fan.ru</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Overwatch Fan Site. Неофициальный проект.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
